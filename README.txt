@@ -11,7 +11,7 @@ INSTRUCCIONES DE EJECUCIÓN Y ACCESO:
 
 2. Clonación del código fuente (GitHub):
    - Clona el repositorio en tu máquina local ejecutando el siguiente comando en tu terminal:
-     git clone https://github.com/herrerasolisp-hub/Reto-Calculadora-Descuentos-2.git
+     git clone https://github.com/herrerasolisp-hub/Reto-22
    - Abre la carpeta clonada en tu editor de código (por ejemplo, Visual Studio Code).
    - Utiliza la extensión "Live Server" para levantar el entorno de desarrollo local y abrir el archivo "index.html".
 
