@@ -7,7 +7,7 @@ INSTRUCCIONES DE EJECUCIÓN Y ACCESO:
 
 1. Visualización en línea (GitHub Pages):
    - Accede a la aplicación publicada en la web a través del enlace de GitHub Pages del repositorio:
-     https://herrerasolisp-hub.github.io/Reto-Calculadora-Descuentos-2/
+     https://herrerasolisp-hub.github.io/Reto-22/
 
 2. Clonación del código fuente (GitHub):
    - Clona el repositorio en tu máquina local ejecutando el siguiente comando en tu terminal:
