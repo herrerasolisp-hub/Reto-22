@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Descuentos 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Calculadora de Descuentos 2.0</h1>
+
+        <section class="form-section">
+            <label for="inputPrecio">Precio Original del producto ($):</label>
+            <input type="number" id="inputPrecio" placeholder="Ej. 500" min="0" step="any">
+            <div id="mensajeError" class="error-hidden">Por favor, ingrese un precio válido mayor a cero.</div>
+        </section>
+
+        <section class="buttons-section">
+            <p>Selecciona el porcentaje de descuento:</p>
+            <div class="button-group">
+                <button class="btn-descuento" data-descuentos="5">5%</button>
+                <button class="btn-descuento" data-descuentos="10">10%</button>
+                <button class="btn-descuento" data-descuentos="25">25%</button>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <h2>Resultados</h2>
+            <div class="result-card">
+                <p><strong>Precio con descuento:</strong> <span id="spanPrecioFinal">$0.00</span></p>
+            </div>
+
+            <div class="installments-card">
+                <h3>Opciones de pago mensual sin intereses:</h3>
+                <ul>
+                    <li>3 meses: <span id="pago3">$0.00</span> / mes</li>
+                    <li>6 meses: <span id="pago6">$0.00</span> / mes</li>
+                    <li>9 meses: <span id="pago9">$0.00</span> / mes</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
